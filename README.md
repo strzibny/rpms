@@ -1,6 +1,6 @@
 # RPM specification files 
 
-RPM spec files in this repository are meant for Fedora (or CentOS/RHEL) and to be built using Copr build system. These are **not** properly build packages and that's why there are not part of Fedora itself. This project just repackages already built binaries from upstream.
+RPM spec files in this repository are meant for Fedora (or CentOS/RHEL) and to be built using Copr build system. These are **not** properly built packages and that's why there are not part of Fedora itself. This project just repackages already built binaries from upstream.
 
 ## Why bother?
 
