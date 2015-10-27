@@ -8,9 +8,12 @@ Why unzipping something somewhere and/or setting path to have it work? It is way
 
 ## Projects
 
-There are currently spec files for the following projects:
+There are currently spec files and RPMs for the following projects:
 
 * otto
+  * RPMs at http://copr.fedoraproject.org/coprs/jstribny/otto
 * packer
+  * RPMs at http://copr.fedoraproject.org/coprs/jstribny/packer
 * vault
+  * RPMs at http://copr.fedoraproject.org/coprs/jstribny/vault
 
