@@ -22,7 +22,9 @@ mkdir -p %{buildroot}%{_bindir}
 unzip -o %{SOURCE0} -d %{buildroot}%{_bindir}
 
 # Rename to packerio since packer conflicts with Fedora
-rename packer packerio %{buildroot}%{_bindir}/*
+pushd %{buildroot}%{_bindir}
+  mv packer packerio
+popd
 
 %files
 %{_bindir}/*
