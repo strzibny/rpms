@@ -7,7 +7,6 @@ License: MPLv2.0
 URL: https://ottoproject.io/
 # Taken from https://releases.hashicorp.com/otto/0.1.2/otto_0.1.2_linux_amd64.zip	
 Source0: otto_0.1.2_linux_amd64.zip
-Requires: vagrant
 
 %description
 otto is a successor to Vagrant, a tool for managing both development
