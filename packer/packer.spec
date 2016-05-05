@@ -1,13 +1,13 @@
-Name: packer	
-Version: 0.8.6
+Name: packer
+Version: 0.10.0
 Release: 1%{?dist}
 Summary: Create machine and container images for multiple platforms
 Group: Development/Tools
 License: MPLv2.0
 URL: https://www.packer.io/
 
-# Taken from https://dl.bintray.com/mitchellh/packer/packer_0.8.6_linux_amd64.zip
-Source0: packer_0.8.6_linux_amd64.zip
+# Taken from https://releases.hashicorp.com/packer/0.10.0/packer_0.10.0_linux_amd64.zip
+Source0: packer_0.10.0_linux_amd64.zip
 
 %description
 Packer is a tool for creating machine and container images for
@@ -30,5 +30,8 @@ popd
 %{_bindir}/*
 
 %changelog
+* Thu May 05 2016 Josef Strzibny <strzibny@strzibny.name> - 0.10.0-1
+- Update to 0.10.0
+
 * Tue Oct 27 2015 Josef Stribny <jstribny@redhat.com> - 0.8.6-1
 - Initial package
