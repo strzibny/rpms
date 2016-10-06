@@ -11,7 +11,7 @@ Source0: packer_0.10.2_linux_amd64.zip
 
 %description
 Packer is a tool for creating machine and container images for
-multiple platforms from a single source configuration. 
+multiple platforms from a single source configuration.
 
 %prep
 
